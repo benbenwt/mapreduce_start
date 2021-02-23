@@ -1,0 +1,27 @@
+{
+  "type": "bundle",
+  "id": "bundle--d137e17d-8661-414f-a447-be4e11424404",
+  "objects": [
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--e5f1b90a-d9b6-40ab-81a9-8a29df4b6b65",
+      "created_by_ref": "identity--f431f809-377b-45e*0-aa1c-6a4751cae5ff",
+      "created": "2016-04-06T20:03:00.000Z",
+      "modified": "2016-04-06T20:03:00.000Z",
+      "name": "ACME Widget, Inc.",
+      "identity_class": "organization"
+    },
+    {
+      "type": "malware",
+      "spec_version": "2.1",
+      "id": "malware--31b940d4-6f7f-459a-80ea-9c1f17b5891b",
+      "created": "2016-04-06T20:07:09.000Z",
+      "modified": "2016-04-06T20:07:09.000Z",
+      "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+      "name": "Poison Ivy",
+      "last_seen": "2019-03-03",
+      "malware_types": ["adware", "Trojian"]
+    }
+  ]
+}
