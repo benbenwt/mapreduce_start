@@ -1,22 +1,17 @@
 package com.ti.mr.getSingleInfo.getInfo;
 
 import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.fs.FSDataInputStream;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.BytesWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.InputSplit;
 import org.apache.hadoop.mapreduce.RecordReader;
 import org.apache.hadoop.mapreduce.TaskAttemptContext;
 import org.apache.hadoop.mapreduce.lib.input.FileSplit;
-import sun.misc.IOUtils;
+import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 
 
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 
 
 public class WholeRecordReader extends RecordReader<Text, Text> {
@@ -28,7 +23,6 @@ public class WholeRecordReader extends RecordReader<Text, Text> {
     @Override
     public void initialize(InputSplit inputSplit, TaskAttemptContext taskAttemptContext) throws IOException, InterruptedException {
         this.split=(FileSplit)inputSplit;
-        System.out.println("name:"+this.split.getPath().getName());
         this.configuration=taskAttemptContext.getConfiguration();
         k=new Text();
         v=new Text();
@@ -40,9 +34,9 @@ public class WholeRecordReader extends RecordReader<Text, Text> {
         if(isProgress)
         {
             Path path=split.getPath();
-            String path_str=path.toString();
-            path_str = path_str.substring(6);
-            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream(path_str)));
+            FileSystem fileSystem=path.getFileSystem(configuration);
+            InputStream inputStream=fileSystem.open(path);
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
             StringBuffer json=new StringBuffer();
             String tem="";
             while(true){

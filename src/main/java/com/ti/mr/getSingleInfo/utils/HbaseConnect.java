@@ -7,34 +7,51 @@ import org.apache.hadoop.hbase.client.*;
 import org.apache.hadoop.hbase.util.Bytes;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 public class HbaseConnect {
-    Connection conn;
-    Admin admin;
-    public void init() throws IOException {
+    public static  Connection conn;
+    public static Admin admin;
+    static{
         System.out.println("hbase init--------------------------------------------");
-        conn=null;
-        System.setProperty("hadoop.home.dir", "C:\\Users\\asus\\Desktop\\hadoop-3.1.4\\hadoop-3.1.4");
+        System.setProperty("hadoop.home.dir", "C:\\Users\\guo\\Desktop\\hadoop-3.1.4");
         Configuration conf = HBaseConfiguration.create();
         conf.set("hbase.zookeeper.quorum","hbase");
         conf.set("hbase.zookeeper.property.clientPort","2181");
         try {
             conn = ConnectionFactory.createConnection(conf);
-            System.out.println("连接hbase成功");
-        } catch (IOException e){
-            System.out.println("连接hbase失败");
+        } catch (IOException e) {
             e.printStackTrace();
         }
-        admin=conn.getAdmin();
+        try {
+            admin=conn.getAdmin();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
-//    private void createTable(String name)
-//    {
-//        Admin admin=conn.getAdmin();
-//        TableName tableName=TableName.valueOf(name);
-//        TableDescriptor tableDescriptor=new TableDescriptor(tableName);
-//        admin.createTable(TableDescriptor);
-//    }
+    public static  Table getTable(String tableNameStr) throws IOException {
+        TableName tableName=TableName.valueOf(tableNameStr);
+        return conn.getTable(tableName);
+    }
+
+    public static void close(){
+        try {
+            admin.close();
+            conn.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println("HbaseConnector closeConnection failed");
+        }
+        System.out.println("HbaseConnect closed");
+    }
+
+
+
+
+
     public void testScan(String name) throws IOException {
         TableName tableName=TableName.valueOf(name);
         Table table=conn.getTable(tableName);
@@ -76,6 +93,44 @@ public class HbaseConnect {
             e.printStackTrace();
         }
     }
+    public static void  insertSample(Map<String,String> sample) throws IOException {
+        TableName tableName=TableName.valueOf("platform:sample");
+        Table table= null;
+        try {
+            table = conn.getTable(tableName);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        String rowkey=sample.get("sha256");
+        if(rowkey=="")
+        {
+            rowkey=sample.get("cveid");
+        }
+        if(rowkey=="")
+        {
+            rowkey=sample.get("hdfs");
+        }
+        Put put = new Put(rowkey.getBytes());
+
+
+        List<String> baseInfo=new ArrayList<String>(){{add("md5");add("SHA256");add("sha1");add("size");add("architecture");add("language");add("endianess");add("type");}};
+        List<String> moreInfo=new ArrayList<String>(){{add("sampletime");add("ip");add("url");add("cveid");add("location");add("identity");}};
+        List<String> store=new ArrayList<String>(){{add("hdfs");}};
+        for(String var:baseInfo)
+        {
+            put.addColumn("baseinfo".getBytes(),var.getBytes(),sample.get(var).getBytes());
+        }
+        for(String var:moreInfo)
+        {
+            put.addColumn("moreinfo".getBytes(),var.getBytes(),sample.get(var).getBytes());
+        }
+        for(String var:store)
+        {
+            put.addColumn("store".getBytes(),var.getBytes(),sample.get(var).getBytes());
+        }
+        table.put(put);
+        table.close();
+    }
     public  void insert(String row,String value)
     {
         System.out.println("Info:"+value);
@@ -102,11 +157,7 @@ public class HbaseConnect {
 
     public static void main(String[] args) {
         HbaseConnect hbaseConnect=new HbaseConnect();
-        try {
-            hbaseConnect.init();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
         hbaseConnect.insert("123","123");
+        hbaseConnect.close();
     }
 }

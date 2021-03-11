@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92a9019b-5dad-4f33-ae0d-b29816d41ba8" name="Default Changelist" comment="" />
+    <list default="true" id="92a9019b-5dad-4f33-ae0d-b29816d41ba8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mapreduce_start.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/utils/FilterAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/wordcount/CombineSmallfileInputFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/wordcount/CombineSmallfileRecordReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/getInfo/JsonDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/getInfo/JsonDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/getInfo/JsonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/getInfo/JsonMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/getInfo/JsonReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/getInfo/JsonReducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/getInfo/WholeRecordReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/getInfo/WholeRecordReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/utils/BeelineConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/utils/BeelineConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/utils/HbaseConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/utils/HbaseConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/wordcount/WordCountDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/wordcount/WordCountDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/wordcount/WordCountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/wordcount/WordCountMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/hadoop/io/nativeio/NativeIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/test.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,13 +37,10 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../maven/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="D:\DevInstall\maven\apache-maven-3.6.3\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -28,32 +48,55 @@
     </option>
   </component>
   <component name="ProjectId" id="1o8wiAVHcZTQiVyCjSW12vVEmmI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/weitao/mr/wordcount" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\DevInstall\IDEA\IdeaProjects\mapreduce_start\src\main\java\com\weitao\mr\wordcount" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DevInstall\IdeaProjects\mapreduce_start\src\main\java\org\apache\hadoop\io\nativeio" />
+      <recent name="D:\DevInstall\IdeaProjects\mapreduce_start\src\main\java\org\apache\hadoop\io" />
+      <recent name="D:\DevInstall\IdeaProjects\mapreduce_start\src\main\java" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.weitao.mr.wordcount" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DevInstall\IDEA\IdeaProjects\mapreduce_start\src\main\java\com\weitao\mr\wordcount" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.BeelineConnect">
+  <component name="RunManager" selected="Application.WordCountDriver">
     <configuration name="BeelineConnect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ti.mr.getSingleInfo.utils.BeelineConnect" />
+      <module name="mapreduce_start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ti.mr.getSingleInfo.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HbaseConnect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ti.mr.getSingleInfo.utils.HbaseConnect" />
       <module name="mapreduce_start" />
       <extension name="coverage">
         <pattern>
@@ -78,12 +121,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.weitao.mr.wordcount.JsonDriver" />
+    <configuration name="WordCountDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ti.mr.getSingleInfo.wordcount.WordCountDriver" />
       <module name="mapreduce_start" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;C:\\Users\\guo\\Desktop\\input&quot;  &quot;C:\\Users\\guo\\Desktop\\output&quot;" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.weitao.mr.wordcount.JsonReducer" />
+          <option name="PATTERN" value="com.ti.mr.getSingleInfo.wordcount.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegexInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.weitao.mr.wordcount.utils.RegexInfo" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ti.mr.getSingleInfo.test" />
       <module name="mapreduce_start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.weitao.mr.wordcount.domain.*" />
+          <option name="PATTERN" value="com.ti.mr.getSingleInfo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,25 +148,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegexInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ti.mr.getSingleInfo.utils.RegexInfo" />
-      <module name="mapreduce_start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ti.mr.getSingleInfo.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.BeelineConnect" />
+      <item itemvalue="Application.HbaseConnect" />
+      <item itemvalue="Application.JsonDriver (1)" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.WordCountDriver" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BeelineConnect" />
+        <item itemvalue="Application.WordCountDriver" />
         <item itemvalue="Application.JsonDriver (1)" />
-        <item itemvalue="Application.RegexInfo" />
-        <item itemvalue="Application.JsonDriver" />
+        <item itemvalue="Application.BeelineConnect" />
+        <item itemvalue="Application.HbaseConnect" />
+        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -151,25 +190,59 @@
       <workItem from="1613997651484" duration="317000" />
       <workItem from="1613998020525" duration="5262000" />
       <workItem from="1614080637100" duration="275000" />
+      <workItem from="1614674429775" duration="2973000" />
+      <workItem from="1614681944476" duration="2072000" />
+      <workItem from="1614684371046" duration="110000" />
+      <workItem from="1614684489893" duration="2618000" />
+      <workItem from="1614733706052" duration="4014000" />
+      <workItem from="1614758684935" duration="143000" />
+      <workItem from="1614758837665" duration="122000" />
+      <workItem from="1614758969363" duration="13802000" />
+      <workItem from="1614822991981" duration="26841000" />
+      <workItem from="1614906916698" duration="17791000" />
+      <workItem from="1614936577467" duration="333000" />
+      <workItem from="1614936919528" duration="7347000" />
+      <workItem from="1614993860373" duration="2068000" />
+      <workItem from="1615009843873" duration="101000" />
+      <workItem from="1615011879532" duration="1086000" />
+      <workItem from="1615018183166" duration="4459000" />
+      <workItem from="1615087844333" duration="1219000" />
+      <workItem from="1615090425971" duration="3611000" />
+      <workItem from="1615169965122" duration="199000" />
+      <workItem from="1615426731823" duration="1151000" />
+      <workItem from="1615456860126" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="177" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612709262360">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="725" y="245" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615018734609">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="177" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1612709262360" />
-    <state x="484" y="58" key="#com.intellij.ide.util.MemberChooser" timestamp="1613902913098">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="725" y="245" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1615018734609" />
+    <state x="968" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1614862991790">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="484" y="58" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1613902913098" />
+    <state x="968" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1614862991790" />
     <state x="452" y="166" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1612688154877">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="452" y="166" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.768@0.0.1366.768" timestamp="1612688154877" />
+    <state x="1257" y="658" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1614674525181">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1257" y="658" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1614674525181" />
+    <state x="986" y="424" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1614674523477">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="986" y="424" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1614674523477" />
     <state x="787" y="243" width="441" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1613652091376">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -178,54 +251,81 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="294" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.768@0.0.1366.768" timestamp="1613901515190" />
+    <state x="1199" y="462" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615091844836">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1199" y="462" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1615091844836" />
     <state x="457" y="144" key="EnvironmentVariablesDialog" timestamp="1612691187649">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="457" y="144" key="EnvironmentVariablesDialog/0.0.1366.768@0.0.1366.768" timestamp="1612691187649" />
-    <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1613999538751">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="1188" y="265" key="FileChooserDialogImpl" timestamp="1615095123524">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1613999538751" />
-    <state width="1323" height="229" key="GridCell.Tab.0.bottom" timestamp="1614003778500">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="1188" y="265" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1615095123524" />
+    <state width="1640" height="280" key="GridCell.Tab.0.bottom" timestamp="1615095124279">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1323" height="229" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1614003778500" />
-    <state width="1323" height="229" key="GridCell.Tab.0.center" timestamp="1614003778500">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1640" height="280" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1615095124279" />
+    <state width="1640" height="280" key="GridCell.Tab.0.center" timestamp="1615095124278">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1323" height="229" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1614003778500" />
-    <state width="1323" height="229" key="GridCell.Tab.0.left" timestamp="1614003778500">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1640" height="280" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1615095124278" />
+    <state width="1640" height="280" key="GridCell.Tab.0.left" timestamp="1615095124278">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1323" height="229" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1614003778500" />
-    <state width="1323" height="229" key="GridCell.Tab.0.right" timestamp="1614003778500">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1640" height="280" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1615095124278" />
+    <state width="1640" height="280" key="GridCell.Tab.0.right" timestamp="1615095124279">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1323" height="229" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1614003778500" />
-    <state width="1323" height="281" key="GridCell.Tab.1.bottom" timestamp="1613567715685">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1640" height="280" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1615095124279" />
+    <state width="1160" height="365" key="GridCell.Tab.1.bottom" timestamp="1614863997521">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1323" height="281" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1613567715685" />
-    <state width="1323" height="281" key="GridCell.Tab.1.center" timestamp="1613567715685">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1160" height="365" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1614863997521" />
+    <state width="1160" height="365" key="GridCell.Tab.1.center" timestamp="1614863997521">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1323" height="281" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1613567715685" />
-    <state width="1323" height="281" key="GridCell.Tab.1.left" timestamp="1613567715685">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1160" height="365" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1614863997521" />
+    <state width="1160" height="365" key="GridCell.Tab.1.left" timestamp="1614863997521">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1323" height="281" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1613567715685" />
-    <state width="1323" height="281" key="GridCell.Tab.1.right" timestamp="1613567715685">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1160" height="365" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1614863997521" />
+    <state width="1160" height="365" key="GridCell.Tab.1.right" timestamp="1614863997521">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1323" height="281" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1613567715685" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1613999555845">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1160" height="365" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1614863997521" />
+    <state x="828" y="302" key="SettingsEditor" timestamp="1615092980952">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1613999555845" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1613728702569">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="828" y="302" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1615092980952" />
+    <state x="226" y="175" width="859" height="851" key="dock-window-1" timestamp="1614848523291">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="226" y="175" width="859" height="851" key="dock-window-1/0.0.2560.1400@0.0.2560.1400" timestamp="1614848523291" />
+    <state x="513" y="735" key="new project wizard" timestamp="1614931068329">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="513" y="735" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1614931068329" />
+    <state x="1125" y="339" key="run.anything.popup" timestamp="1615090539075">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1125" y="339" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1615090539075" />
+    <state x="648" y="162" width="1260" height="1236" key="search.everywhere.popup" timestamp="1615091161163">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1613728702569" />
+    <state x="648" y="162" width="1260" height="1236" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1615091161163" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
