@@ -2,28 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92a9019b-5dad-4f33-ae0d-b29816d41ba8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mapreduce_start.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/utils/FilterAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/wordcount/CombineSmallfileInputFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/wordcount/CombineSmallfileRecordReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/hadoop/io/nativeio/NativeIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/getInfo/JsonDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/getInfo/JsonDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/getInfo/JsonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/getInfo/JsonMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/getInfo/JsonReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/getInfo/JsonReducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/getInfo/WholeRecordReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/getInfo/WholeRecordReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/utils/BeelineConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/utils/BeelineConnect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/utils/HbaseConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/utils/HbaseConnect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/wordcount/WordCountDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/wordcount/WordCountDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/wordcount/WordCountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ti/mr/getSingleInfo/wordcount/WordCountMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/hadoop/io/nativeio/NativeIO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/test.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,26 +46,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../platform" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\DevInstall\IdeaProjects\mapreduce_start\src\main\java\org\apache\hadoop\io\nativeio" />
-      <recent name="D:\DevInstall\IdeaProjects\mapreduce_start\src\main\java\org\apache\hadoop\io" />
-      <recent name="D:\DevInstall\IdeaProjects\mapreduce_start\src\main\java" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.weitao.mr.wordcount" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\DevInstall\IDEA\IdeaProjects\mapreduce_start\src\main\java\com\weitao\mr\wordcount" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DevInstall\IdeaProjects\mapreduce_start\src\main\java\org\apache\hadoop\io" />
+      <recent name="D:\DevInstall\IdeaProjects\mapreduce_start\src\main\java\org\apache\hadoop\io\nativeio" />
+      <recent name="D:\DevInstall\IdeaProjects\mapreduce_start\src\main\java" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.WordCountDriver">
+  <component name="RunManager" selected="Application.JsonDriver">
     <configuration name="BeelineConnect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ti.mr.getSingleInfo.utils.BeelineConnect" />
       <module name="mapreduce_start" />
@@ -108,9 +92,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonDriver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ti.mr.getSingleInfo.getInfo.JsonDriver" />
       <module name="mapreduce_start" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;C:\\Users\\guo\\Desktop\\input&quot;  &quot;C:\\Users\\guo\\Desktop\\output&quot;" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ti.mr.getSingleInfo.getInfo.*" />
@@ -151,14 +136,14 @@
     <list>
       <item itemvalue="Application.BeelineConnect" />
       <item itemvalue="Application.HbaseConnect" />
-      <item itemvalue="Application.JsonDriver (1)" />
+      <item itemvalue="Application.JsonDriver" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.WordCountDriver" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JsonDriver" />
         <item itemvalue="Application.WordCountDriver" />
-        <item itemvalue="Application.JsonDriver (1)" />
         <item itemvalue="Application.BeelineConnect" />
         <item itemvalue="Application.HbaseConnect" />
         <item itemvalue="Application.test" />
@@ -211,6 +196,9 @@
       <workItem from="1615169965122" duration="199000" />
       <workItem from="1615426731823" duration="1151000" />
       <workItem from="1615456860126" duration="12000" />
+      <workItem from="1615535814646" duration="1009000" />
+      <workItem from="1615539023156" duration="6027000" />
+      <workItem from="1615554532564" duration="1066000" />
     </task>
     <servers />
   </component>
@@ -221,11 +209,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="725" y="245" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615018734609">
+    <state x="725" y="245" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615539240384">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="177" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1612709262360" />
-    <state x="725" y="245" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1615018734609" />
+    <state x="725" y="245" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1615539240384" />
     <state x="968" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1614862991790">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -259,31 +247,31 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="457" y="144" key="EnvironmentVariablesDialog/0.0.1366.768@0.0.1366.768" timestamp="1612691187649" />
-    <state x="1188" y="265" key="FileChooserDialogImpl" timestamp="1615095123524">
+    <state x="1188" y="265" key="FileChooserDialogImpl" timestamp="1615540177935">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1613999538751" />
-    <state x="1188" y="265" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1615095123524" />
-    <state width="1640" height="280" key="GridCell.Tab.0.bottom" timestamp="1615095124279">
+    <state x="1188" y="265" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1615540177935" />
+    <state width="1125" height="282" key="GridCell.Tab.0.bottom" timestamp="1615554522171">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1323" height="229" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1614003778500" />
-    <state width="1640" height="280" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1615095124279" />
-    <state width="1640" height="280" key="GridCell.Tab.0.center" timestamp="1615095124278">
+    <state width="1125" height="282" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1615554522171" />
+    <state width="1125" height="282" key="GridCell.Tab.0.center" timestamp="1615554522171">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1323" height="229" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1614003778500" />
-    <state width="1640" height="280" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1615095124278" />
-    <state width="1640" height="280" key="GridCell.Tab.0.left" timestamp="1615095124278">
+    <state width="1125" height="282" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1615554522171" />
+    <state width="1125" height="282" key="GridCell.Tab.0.left" timestamp="1615554522171">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1323" height="229" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1614003778500" />
-    <state width="1640" height="280" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1615095124278" />
-    <state width="1640" height="280" key="GridCell.Tab.0.right" timestamp="1615095124279">
+    <state width="1125" height="282" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1615554522171" />
+    <state width="1125" height="282" key="GridCell.Tab.0.right" timestamp="1615554522171">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1323" height="229" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1614003778500" />
-    <state width="1640" height="280" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1615095124279" />
+    <state width="1125" height="282" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1615554522171" />
     <state width="1160" height="365" key="GridCell.Tab.1.bottom" timestamp="1614863997521">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -317,10 +305,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="513" y="735" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1614931068329" />
-    <state x="1125" y="339" key="run.anything.popup" timestamp="1615090539075">
+    <state x="1125" y="339" key="run.anything.popup" timestamp="1615545488135">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1125" y="339" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1615090539075" />
+    <state x="1125" y="339" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1615545488135" />
     <state x="648" y="162" width="1260" height="1236" key="search.everywhere.popup" timestamp="1615091161163">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

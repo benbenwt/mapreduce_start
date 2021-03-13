@@ -1,8 +1,6 @@
 package com.ti.mr.getSingleInfo.getInfo;
 
 
-import com.ti.mr.getSingleInfo.utils.BeelineConnect;
-import com.ti.mr.getSingleInfo.utils.HbaseConnect;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.Text;
@@ -15,10 +13,10 @@ import java.sql.SQLException;
 
 public class JsonDriver {
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException, IOException, SQLException {
-        System.setProperty("hadoop.home.dir", "/root/module/hadoop-3.1.4");
+        System.setProperty("hadoop.home.dir", "C:\\Users\\guo\\Desktop\\hadoop-3.1.4");
         //获取job对象
         Configuration conf=new Configuration();
-        conf.set("mapred.map.tasks","15");
+        conf.set("mapreduce.job.maps","15");
         Job job=Job.getInstance(conf);
 
         job.setInputFormatClass(WholeFileInputFormat.class);

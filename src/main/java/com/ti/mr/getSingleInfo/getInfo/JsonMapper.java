@@ -18,7 +18,7 @@ public class JsonMapper extends Mapper<Text , Text,Text, Text> {
     Text v=new Text();
     String filePath;
     RegexInfo regexInfo=new RegexInfo();
-    HbaseConnect hbaseConnect=new HbaseConnect();
+//    HbaseConnect hbaseConnect=new HbaseConnect();
     BeelineConnect beelineConnect=new BeelineConnect();
     FilterAttribute filterAttribute;
 
@@ -56,7 +56,7 @@ public class JsonMapper extends Mapper<Text , Text,Text, Text> {
         context.write(k,v);
 
         //hbase和hive
-        HbaseConnect.insertSample(info);
+//        HbaseConnect.insertSample(info);
         try {
             BeelineConnect.insertSample(info);
         } catch (SQLException e) {
